@@ -15,8 +15,14 @@ function Hero() {
       </p>
 
       <div className="buttons">
-        <a href="#contact">
+        <a href={`${import.meta.env.BASE_URL}cv.pdf`} download>
           <button className="primary-btn">
+            Download CV
+          </button>
+        </a>
+
+        <a href="#contact">
+          <button className="secondary-btn">
             Contact Me
           </button>
         </a>
