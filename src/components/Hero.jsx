@@ -15,14 +15,17 @@ function Hero() {
       </p>
 
       <div className="buttons">
-        <a href="/cv.pdf" download>
+        {/* <a href="/cv.pdf" download> */}
+        <a href="#"></a>
           <button className="primary-btn">
-            Download CV
+            #
+             {/* Download CV */}
           </button>
-        </a>
+        
+        
 
         <a href="#contact">
-          <button className="secondary-btn">
+          <button className="secondary-btn"> 
             Contact Me
           </button>
         </a>
