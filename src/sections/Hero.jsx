@@ -1,3 +1,5 @@
+import profileImage from "../assets/profile.jpg";
+
 import { 
   FaGithub, 
   FaTelegram, 
@@ -93,7 +95,7 @@ function Hero() {
             <div className="profile-glow"></div>
 
             <img
-              src="/src/assets/profile.jpg"
+              src={profileImage}
               alt="Phanith - Web Developer"
               className="profile-image"
             />
