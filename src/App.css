@@ -480,3 +480,80 @@ footer {
   }
 }
 
+/* =========================
+   THEMES
+========================= */
+
+.dark {
+  background: #0f172a;
+  color: white;
+}
+
+.light {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  z-index: 9999;
+
+  border: none;
+  border-radius: 30px;
+
+  padding: 12px 20px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+
+  background: #38bdf8;
+  color: black;
+
+  transition: 0.3s;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.05);
+}
+
+/* Light Mode Navbar */
+.light .navbar {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.light .nav-links a {
+  color: #0f172a;
+}
+
+.light .logo {
+  color: #0284c7;
+}
+
+/* Light Mode Cards */
+.light .card,
+.light .project-card,
+.light .contact-form input,
+.light .contact-form textarea {
+  background: white;
+  color: #0f172a;
+  border: 1px solid #e2e8f0;
+}
+
+/* Light Mode Footer */
+.light footer {
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.light .socials a {
+  background: white;
+  color: #0f172a;
+  border: 1px solid #cbd5e1;
+}
+
+
+

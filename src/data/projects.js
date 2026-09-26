@@ -1,45 +1,58 @@
-import keyboard from "../assets/projects/keyboard-store.png";
-import ecommerce from "../assets/projects/ecommerce.png";
-import taskmanager from "../assets/projects/taskmanager.png";
-import javafx from "../assets/projects/javafx.png";
-
 const projects = [
   {
-    id: 1,
-    title: "Keyboard Store",
-    image: keyboard,
-    description: "Laravel CRUD inventory management system.",
-    tech: ["Laravel", "MySQL", "Bootstrap"],
+    title: "MessageSMS",
+    description:
+      "SMS campaign management system with contact management, campaigns, message tracking and delivery reports.",
+    technologies: [
+      "Laravel",
+      "MySQL",
+      "Sanctum",
+      "Mocean",
+    ],
     github: "#",
     demo: "#",
   },
+
   {
-    id: 2,
-    title: "Ecommerce Frontend",
-    image: ecommerce,
-    description: "Responsive ecommerce website.",
-    tech: ["HTML", "CSS", "JavaScript"],
+    title: "AI Interview",
+    description:
+      "AI-powered interview platform designed to help users practice interview questions and manage interview sessions.",
+    technologies: [
+      "Laravel",
+      "React",
+      "MySQL",
+      "AI",
+    ],
     github: "#",
     demo: "#",
   },
+
   {
-    id: 3,
-    title: "Task Manager",
-    image: taskmanager,
-    description: "ASP.NET task management application.",
-    tech: ["ASP.NET", "SQL Server"],
+    title: "Travel Booking",
+    description:
+      "Travel booking ecommerce application for browsing destinations and managing travel bookings.",
+    technologies: [
+      "Laravel",
+      "React",
+      "MySQL",
+    ],
     github: "#",
     demo: "#",
   },
+
   {
-    id: 4,
-    title: "JavaFX Login",
-    image: javafx,
-    description: "Desktop login application.",
-    tech: ["Java", "JavaFX"],
+    title: "pchum_ben_2026pchum_ben_2026",
+    description:
+      "Web application for managing and showcasing products with a modern and responsive user interface.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "CSS",
+    ],
     github: "#",
-    demo: "#",
+    demo: "https://pchum-ben-2026-i0ofba7in-hira-zaniths-projects.vercel.app/",
   },
+
 ];
 
 export default projects;
